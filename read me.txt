@@ -1,0 +1,102 @@
+🏥 Health Insurance Cost Predictor - Machine Learning Project
+📌 Problem Statement
+Insurance companies need accurate, data-driven systems to estimate health insurance costs based on a variety of personal and medical attributes. This helps in better risk assessment, fair premium pricing, and improving customer satisfaction.
+
+🎯 Objective
+Build a machine learning model that predicts health insurance charges using the following features:
+
+Age
+
+Number of Dependents
+
+Income (in Lakhs)
+
+Generic Risk Level
+
+Insurance Plan Type
+
+Employment Status
+
+Gender
+
+Marital Status
+
+BMI Category
+
+Smoking Status
+
+Region
+
+Medical History
+
+📊 Dataset
+Source: Synthetic or collected insurance dataset
+
+Records: ~1300+
+
+Target Variable: Insurance Charges (predicted medical cost)
+
+Features: As listed in the Objective section
+
+🔍 Steps Performed
+1. Data Preprocessing
+Encoded categorical variables (e.g., gender, region, plan type)
+
+Normalized continuous variables like age and income
+
+Handled missing values and outliers
+
+2. Exploratory Data Analysis (EDA)
+Analyzed how features like income, age, and smoking influence costs
+
+Found strong correlation between medical history, BMI, and predicted charges
+
+3. Model Building
+Applied the following regression models:
+
+Linear Regression
+
+Decision Tree Regressor
+
+Random Forest Regressor
+
+XGBoost Regressor
+
+4. Model Evaluation
+Evaluated using:
+
+R² Score
+
+Mean Absolute Error (MAE)
+
+Mean Squared Error (MSE)
+
+Root Mean Squared Error (RMSE)
+
+Best Model: XGBoost delivered the most accurate predictions.
+
+🧠 Technologies Used
+Python
+
+Pandas, NumPy
+
+Scikit-learn, XGBoost
+
+Matplotlib, Seaborn
+
+Jupyter Notebook
+
+✅ Results
+Built a robust prediction model for insurance cost estimation
+
+Identified risk groups (e.g., smokers, high-BMI, poor medical history)
+
+Supported more personalized and fair pricing strategies
+
+🚀 Future Enhancements
+Deploy the model via a Streamlit or Flask web app
+
+Integrate real-time data from customer portals or APIs
+
+Include time-series health tracking and claims history
+
